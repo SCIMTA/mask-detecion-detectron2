@@ -24,6 +24,11 @@
   cd mask-detecion-detectron2  
   pip install -r requirements.txt
   
+  git clone https://github.com/DGMaxime/detectron2-windows
+  cd detectron2-windows
+  pip install -e .
+  cd ..
+  
   python main_windows.py
   ---- click Start ----  
 ```
