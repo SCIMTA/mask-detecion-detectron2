@@ -16,11 +16,13 @@
     - [Mask detection using detectron2](https://medium.com/mlearning-ai/mask-detection-using-detectron2-225383c7d069)
     
 # How to run this???
-  
-```
+```angular2html
   # Clone source code
-  git clone https://github.com/trongthanht3/mask-detecion-detectron2  
-  
+  git clone https://github.com/trongthanht3/mask-detecion-detectron2
+```  
+Put this [model](https://drive.google.com/file/d/13wmkXhTXZxMoxKuELQcDT9W2XymeSlXa/view?usp=sharing) to `model/`
+
+```
   cd mask-detecion-detectron2  
   pip install -r requirements.txt
   
