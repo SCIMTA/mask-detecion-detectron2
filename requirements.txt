@@ -1,0 +1,6 @@
+cython
+torch
+torchvision
+pycocotools
+git+https://github.com/DGMaxime/detectron2-windows.git
+opencv-python
