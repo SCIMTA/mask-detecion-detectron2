@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1551</width>
-    <height>778</height>
+    <width>893</width>
+    <height>442</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,29 +16,10 @@
   <widget class="QLabel" name="label_1">
    <property name="geometry">
     <rect>
-     <x>1300</x>
-     <y>10</y>
-     <width>241</width>
-     <height>136</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>../demo/image/person.png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>1300</x>
-     <y>156</y>
-     <width>241</width>
-     <height>136</height>
+     <x>550</x>
+     <y>40</y>
+     <width>160</width>
+     <height>147</height>
     </rect>
    </property>
    <property name="text">
@@ -54,10 +35,10 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>1300</x>
-     <y>448</y>
-     <width>241</width>
-     <height>136</height>
+     <x>550</x>
+     <y>249</y>
+     <width>160</width>
+     <height>147</height>
     </rect>
    </property>
    <property name="text">
@@ -73,10 +54,10 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>1300</x>
-     <y>302</y>
-     <width>241</width>
-     <height>136</height>
+     <x>720</x>
+     <y>249</y>
+     <width>160</width>
+     <height>147</height>
     </rect>
    </property>
    <property name="text">
@@ -89,13 +70,13 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>1300</x>
-     <y>594</y>
-     <width>241</width>
-     <height>136</height>
+     <x>720</x>
+     <y>40</y>
+     <width>160</width>
+     <height>147</height>
     </rect>
    </property>
    <property name="text">
@@ -106,6 +87,70 @@
    </property>
    <property name="scaledContents">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_1">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>11</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>220</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_2">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>11</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_4">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>220</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="image_label">
@@ -113,8 +158,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>1280</width>
-     <height>720</height>
+     <width>525</width>
+     <height>386</height>
     </rect>
    </property>
    <property name="text">
@@ -131,8 +176,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>740</y>
-     <width>1531</width>
+     <y>405</y>
+     <width>871</width>
      <height>28</height>
     </rect>
    </property>

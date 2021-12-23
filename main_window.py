@@ -53,7 +53,8 @@ class MainWindow(QWidget):
         self.ui.image_label.setPixmap(QPixmap.fromImage(qImg))
         self.ui.image_label.setScaledContents(False)
 
-        labels = [self.ui.label_1, self.ui.label_2, self.ui.label_3, self.ui.label_4, self.ui.label_5]
+        labels = [self.ui.label_1, self.ui.label_2, self.ui.label_3, self.ui.label_4]
+        texts = [self.ui.text_1, self.ui.text_2, self.ui.text_3, self.ui.text_4]
         index = 0
         for [[x, y, w, h], c] in faces:
             crop_img = copy[y - 10:h + 10, x - 10:w + 10].copy()
@@ -63,8 +64,11 @@ class MainWindow(QWidget):
             qCrop = QImage(crop_img.data, ww, hh, ss, QImage.Format_RGB888)
             labels[index].setPixmap(QPixmap.fromImage(qCrop))
             labels[index].setScaledContents(True)
+
+            texts[index].setText(c)
+
             index += 1
-            if index == 4:
+            if index == 3:
                 break
 
     # show zoom cam
